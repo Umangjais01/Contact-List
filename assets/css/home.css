@@ -1,0 +1,63 @@
+    
+      
+        #page-heading {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        #contacts-list-container {
+            max-width: 500px;
+            
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: #bdc3c8;
+            border-radius: 0.25rem;
+        }
+        
+        .delete-button {
+            font-size: 1.5rem;
+            color: red;
+        }
+        
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        input[type="text"], input[type="number"], button {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 0.25rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        input[type="text"], input[type="number"] {
+            width: 80%;
+            margin-right: 1rem;
+        }
+        
+        button {
+            background-color: #3887dc;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        button:hover {
+            background-color: #003e7f;
+        }
